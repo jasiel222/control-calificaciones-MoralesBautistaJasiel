@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #ededed;
+    padding: 20px;
+}
+
+.contenedor {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.panel-captura {
+    background: white;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.grupo-campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.grupo-campo p {
+    margin: 0 0 5px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+#boton-registrar {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: lightblue;
+}
+
+#boton-reiniciar {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: lightgray;
+}
+
+.tarjeta {
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.estado-positivo {
+    background: #c9efc9;
+}
+
+.estado-alerta {
+    background: #f5c5c5;
+}
